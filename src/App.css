@@ -1,0 +1,25 @@
+
+.like-dislike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.like,
+.dislike {
+  font-size: 32px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  color: grey;
+}
+
+.like.liked,
+.dislike.disliked {
+  color: red;
+}
+
+
+
